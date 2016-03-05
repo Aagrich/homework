@@ -1,0 +1,60 @@
+a:hover {
+  color: red;
+}
+a:active {
+  border-bottom: 1px dashed black;
+}
+a::visited {
+  color: grey;
+}
+
+li:last-child {
+  color: red;
+}
+
+li:first-child {
+  color: green;
+}
+
+li:nth-child(3) {
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* p {
+  color: black;
+
+}
+p::first-letter {
+  color: red;
+}
+p::first-line {
+  color: green;
+}
+p:before {
+  content: "123";
+  color: grey;
+  font-size: 12 px;
+}
+p::after {
+  content: "789";
+  color:green;
+}
+
+p::selection {
+
+  background: yellow;
+}
+.sometext::selection {
+  color: red;
+}
+*/
