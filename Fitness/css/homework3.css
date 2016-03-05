@@ -1,6 +1,6 @@
 .wraper {
   background: white;
-  margin: 5px 7% 0px 7%;
+  margin: 5px 10% 0px 10%;
   padding:0px  0px 20px 0px;
   border-left: 2px ridge #e7e7e7;
   border-right: 2px groove #e7e7e7;
@@ -16,7 +16,7 @@ header > img {
 }
 header > ul {
   background-image: url(../img/panel.png);
-  width: 90%;
+  width: auto;
 
 
 }
@@ -27,7 +27,7 @@ header > ul li {
   padding: 10px 5% 10px 0px;
 
   height: 100%;
-  width:auto;
+  width:10%;
 
 }
 header > ul li a {
@@ -77,13 +77,14 @@ header > ul li:hover {
 .content img {
   padding: 5%;
   border: 1px solid #c8c8c8;
-  width: inherit;
-  height: inherit;
+  width: 65%;
+  height: 65%;
   margin-left: 5%;
 }
 .content p {
   padding: 5% 0px 5% 10%;
   width:70%;
+  float: left;
 }
 
 /*------------- FOOTER---------- */
@@ -91,7 +92,7 @@ header > ul li:hover {
 footer {
   margin: 40px 40px 40px 40px;
   background: #e1e1e1;
-  width: 90%;
+  width: inherit;
 }
 footer > ul {
 
