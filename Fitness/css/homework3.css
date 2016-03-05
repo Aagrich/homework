@@ -1,0 +1,50 @@
+body {
+  background: white;
+}
+
+header > ul {
+  background-image: url(../img/panel.png);
+}
+
+header > ul li {
+
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  height: 100%;
+  width:auto;
+
+}
+header > ul li a {
+  color: white;
+}
+header > ul li:hover {
+  border: 0px 1px 0px 1px;
+  border-color: #838383;
+}
+
+
+.conteiner {
+    background: white;
+    display: inline-block;
+}
+
+.left_menu {
+
+  display: inline-block;
+  float: left;
+  }
+.left_menu li {
+  border: 1px solid #c8c8c8;
+  display: block;
+  width: 50px;
+}
+.content {
+  background: white;
+  display: inline-block;
+  float: left
+}
+
+footer {
+  background: #e1e1e1;
+}
