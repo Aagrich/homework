@@ -1,21 +1,34 @@
-body {
+.firstbox {
   background: white;
+  margin: 5px 7% 0px 7%;
+  padding-bottom:20px;
+  border-left: 2px ridge #e7e7e7;
+  border-right: 2px groove #e7e7e7;
 }
-
+/*------------- HEADER ------------- */
+header {
+  margin: 0px 40px 40px 40px;
+}
+header > img {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
 header > ul {
   background-image: url(../img/panel.png);
+
 }
 
 header > ul li {
 
-  color: white;
   display: inline-block;
-  margin: 10px;
+  padding:10px;
+
   height: 100%;
   width:auto;
 
 }
 header > ul li a {
+  margin: 40px;
   color: white;
 }
 header > ul li:hover {
@@ -23,28 +36,64 @@ header > ul li:hover {
   border-color: #838383;
 }
 
-
+/*---------- CONTENT------------- */
 .conteiner {
     background: white;
-    display: inline-block;
+
 }
 
 .left_menu {
-
+  margin: 40px;
+  margin-top: 0px;
   display: inline-block;
   float: left;
   }
 .left_menu li {
   border: 1px solid #c8c8c8;
   display: block;
-  width: 50px;
+  width: 100%;
+  padding: 10px;
 }
 .content {
   background: white;
   display: inline-block;
-  float: left
+  float: top;
 }
 
+/*------------- FOOTER---------- */
+
 footer {
+
+  margin: 40px 40px 40px 40px;
+}
+
+footer > ul {
   background: #e1e1e1;
+
+
+}
+
+footer > ul li {
+
+  display: inline-block;
+  padding:10px;
+
+  height: 100%;
+  width:10%;
+
+
+}
+footer > ul li a {
+  margin: 20%;
+  color: black;
+}
+
+footer > ul li:last-child {
+  margin-left: 20%;
+
+
+}
+footer > ul li:hover {
+  border: 0px 1px 0px 1px;
+  border-color: #838383;
 }
