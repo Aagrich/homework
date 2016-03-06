@@ -6,6 +6,10 @@
   border-right: 2px groove #e7e7e7;
   width: 800px;
   }
+p,div,ul,li,a {
+  font-family:  Open Sans;
+}
+
 /*------------- HEADER ------------- */
 header {
   margin: 0px 40px 40px 40px;
