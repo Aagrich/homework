@@ -122,10 +122,9 @@ footer > ul {
 }
 footer > ul li {
   display: inline-block;
-  padding: 10px 5% 10px 0px;
-
+  padding: 10px 0px 10px 0px;
   height: 100%;
-  width:auto;
+  width:15%;
 }
 footer > ul li a {
   margin: 20%;
@@ -139,8 +138,9 @@ footer > ul li:nth-child(2) {
 
 footer > ul li:last-child {
   font-size: 15px;
-  padding: 10px 1px 10px 20%;
+  padding: 10px 1px 10px 5%;
   text-align: right;
+  width: 30%
 
 
 }
