@@ -1,6 +1,6 @@
 .wraper {
   background: white;
-  margin: 5px 10% 0px 10%;
+  margin: 5px 15% 0px 15%;
   padding:0px  0px 20px 0px;
   border-left: 2px ridge #e7e7e7;
   border-right: 2px groove #e7e7e7;
@@ -16,7 +16,7 @@ header > img {
 }
 header > ul {
   background-image: url(../img/panel.png);
-  width: auto;
+  width: 82%;
 }
 header > ul li {
 
@@ -70,19 +70,13 @@ header > ul li:hover {
 .content img {
   padding: 5%;
   border: 1px solid #c8c8c8;
-  width: 65%;
-  height: 65%;
+  width: inherit;
   margin-left: 5%;
 }
- /* .img1 {
-  background-image: url(../img/bike.jpg);
-  width: 500px;
-  height: 300px; */
-}
 .content p {
-  padding: 5% 0px 5% 10%;
   width:70%;
-  float: left;
+  padding: 5% 0 5px 5%;
+  margin-left: 5%;
 }
 
 /*------------- FOOTER---------- */
@@ -108,7 +102,8 @@ footer > ul li a {
   text-decoration: none;
 }
 footer > ul li:last-child {
-  padding-left: 17%;
+  padding-left: 10%;
+  text-align: right;
 }
 footer > ul li:hover {
   border: 0px 1px 0px 1px;
