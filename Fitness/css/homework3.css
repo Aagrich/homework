@@ -5,10 +5,11 @@
   border-left: 2px ridge #e7e7e7;
   border-right: 2px groove #e7e7e7;
   width: auto;
-}
+  }
 /*------------- HEADER ------------- */
 header {
   margin: 0px 40px 40px 40px;
+  width: auto;
 }
 header > img {
   margin-bottom: 40px;
@@ -16,7 +17,7 @@ header > img {
 }
 header > ul {
   background-image: url(../img/panel.png);
-  width: 82%;
+  width: auto;
 }
 header > ul li {
 
@@ -41,6 +42,11 @@ header > ul li:hover {
     background: white;
     display: inline-block;
 }
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
 .left_menu {
   margin: 40px;
   margin-top: 0px;
@@ -64,14 +70,15 @@ header > ul li:hover {
 }
 .content {
   background: white;
-  float: left;
-  width: 65%;
+  float: right;
+  width: 70%;
+  position: relative;
+
 }
 .content img {
   padding: 5%;
   border: 1px solid #c8c8c8;
   width: inherit;
-  margin-left: 5%;
 }
 .content p {
   width:70%;
