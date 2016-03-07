@@ -1,187 +1,137 @@
-<<<<<<< HEAD
 .wraper {
   background: white;
   margin: 5px 15% 0px 15%;
-  padding:0px  0px 20px 0px;
+  padding:0px  3% 20px 3%;
   border-left: 2px ridge #e7e7e7;
   border-right: 2px groove #e7e7e7;
   width: auto;
-  }
-/*------------- HEADER ------------- */
-header {
-  margin: 0px 40px 40px 40px;
-  width: auto;
-=======
-.firstbox {
-  background: white;
-  margin: 5px 7% 0px 7%;
-  padding-bottom:20px;
-  border-left: 2px ridge #e7e7e7;
-  border-right: 2px groove #e7e7e7;
 }
+
 /*------------- HEADER ------------- */
 header {
-  margin: 0px 40px 40px 40px;
->>>>>>> 8e47b05f557f27e8f8dd87085bcf24c01c16962f
+  width: auto;
+  background: white;
 }
 header > img {
-  margin-bottom: 40px;
-  margin-top: 40px;
+  margin-bottom: 4%;
+  margin-top: 4%;
 }
 header > ul {
   background-image: url(../img/panel.png);
-<<<<<<< HEAD
+  background-size: cover;
   width: auto;
-=======
-
->>>>>>> 8e47b05f557f27e8f8dd87085bcf24c01c16962f
 }
 header > ul li {
-
   display: inline-block;
-<<<<<<< HEAD
-  padding: 10px 5% 10px 0px;
-=======
-  padding:10px;
-
+  padding: 10px 3% 10px 0px;
   height: 100%;
   width:auto;
->>>>>>> 8e47b05f557f27e8f8dd87085bcf24c01c16962f
-
-  height: 100%;
-  width:10%;
 }
 header > ul li a {
-<<<<<<< HEAD
   margin: 40%;
-=======
-  margin: 40px;
->>>>>>> 8e47b05f557f27e8f8dd87085bcf24c01c16962f
   color: white;
   text-decoration: none;
 }
 header > ul li:hover {
-  border: 0px 1px 0px 1px;
-  border-color: #838383;
+  background-image: url(../img/link.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+header > ul li:nth-child(2){
+  background-image: url(../img/link.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 /*---------- CONTENT------------- */
-.conteiner {
-    background: white;
 
-}
-.clearfix:after {
-  content: "";
-  clear: both;
-  display: block;
+.conteiner {
+  display: inline-block;
+    background: white;
+    margin: 4% 0 7% 0;
+    padding: 0;
 }
 .left_menu {
-  margin: 40px;
-  margin-top: 0px;
   display: inline-block;
   float: left;
   width: 20%;
+  margin-right: 6%;
 }
 .left_menu li {
   border: 1px solid #c8c8c8;
   display: block;
   width: 100%;
   padding: 10px;
-<<<<<<< HEAD
 }
 .left_menu li a {
   text-decoration: none;
   color: grey;
 }
 .left_menu li a:hover {
-  text-decoration: none;
   color: black;
+  padding-left: 10px;
+}
+.left_menu li:nth-child(3) a {
+  color: black;
+  padding-left: 10px;
 }
 .content {
+  display: inline-block;
+  margin: 0;
   background: white;
   float: right;
   width: 70%;
-  position: relative;
-
-}
-.content div img {
-  padding: 5%;
-  border: 1px solid #c8c8c8;
-  width: auto;
-=======
-}
-.content {
   background: white;
-  display: inline-block;
-  float: top;
->>>>>>> 8e47b05f557f27e8f8dd87085bcf24c01c16962f
+}
+.photo {
+  float: right;
+  width: 70%;
+  padding: 25% 0 25% 0;
+  margin: 0;
+  background-image: url(../img/bike.jpg);
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #c8c8c8;
 }
 .content p {
-  width:70%;
-  padding: 5% 0 5px 5%;
-  margin-left: 5%;
+  float: right;
+  width: 70%;
+  padding: 5% 0 5px 25px;
 }
-
-/*------------- FOOTER---------- */
 
 /*------------- FOOTER---------- */
 
 footer {
-<<<<<<< HEAD
-  margin: 40px 40px 40px 40px;
+  margin: 4% 0 7% 0;
   background: #e1e1e1;
-  width: inherit;
+  width: auto;
+  clear: both;
 }
 footer > ul {
-
+  padding: 10px 10px 10px 0px;
 }
 footer > ul li {
-  display: inline-block;
-  padding: 10px 5% 10px 0px;
-
-  height: 100%;
-  width:auto;
-=======
-
-  margin: 40px 40px 40px 40px;
-}
-
-footer > ul {
-  background: #e1e1e1;
-
-
-}
-
-footer > ul li {
-
   display: inline-block;
   padding:10px;
-
   height: 100%;
-  width:10%;
-
-
->>>>>>> 8e47b05f557f27e8f8dd87085bcf24c01c16962f
 }
 footer > ul li a {
   margin: 20%;
   color: black;
-<<<<<<< HEAD
   text-decoration: none;
 }
 footer > ul li:last-child {
-  padding-left: 10%;
-  text-align: right;
-=======
+  float: right;
 }
-
-footer > ul li:last-child {
-  margin-left: 20%;
-
-
->>>>>>> 8e47b05f557f27e8f8dd87085bcf24c01c16962f
+footer > ul li:nth-child(2) {
+  text-decoration: underline;
 }
-footer > ul li:hover {
-  border: 0px 1px 0px 1px;
-  border-color: #838383;
+footer > ul li a:hover  {
+  text-decoration: underline;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
 }
