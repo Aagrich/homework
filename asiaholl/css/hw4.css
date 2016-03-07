@@ -40,10 +40,13 @@ header p {
 
 .logo {
   float: left;
-  margin: 5% 0 5% 3%;
+  margin: 7% 30% 6% 3%;
   color: #128aa7;
   font-size: 12px;
   text-align: center;
+}
+.logo p { align: top;}
+
 }
 .clearfix:after {
   content: "";
@@ -51,20 +54,32 @@ header p {
   display: block;
 }
 .photo {
+  background-image: url(../img/photo.jpg);
+  background-size: 100%;
+  padding: 11% 0 11% 0;
   border-top: 1px solid #128aa7;
   border-bottom: 1px solid #128aa7;
+  clear: both;
 }
 .panel {
   background-image: url(../img/panel.png);
   background-size: 100%;
   display: inline-block;
   width: 100%;
+  position: relative;
 }
 
 .submenu {
   display: none;
+  position: absolute;
+  top: 24px;
+  right: auto;
+  left: auto;
+  bottom: auto;
   background-color: #303030;
   line-height: 24px;
+  width: auto;
+
 }
 .panel > li:hover > ul.submenu {
     display: block;
@@ -78,6 +93,7 @@ header p {
 .panel li a {
   color: white;
   font-size: 14px;
+  line-height: 24px;
 }
 
 <!------------C O N T A I N E R ------------>
