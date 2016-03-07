@@ -18,6 +18,7 @@ header {
   display:inline-block;
   background-color: white;
   width: 100%;
+  position: relative;
 }
 header p {
    float: right;
@@ -70,8 +71,12 @@ header p {
   background-image: url(../img/panel.png);
   background-size: 100%;
   display: inline-block;
-  width: 100%;
+  width: 97%;
   position: relative;
+  padding: 0 0 0 3%;
+  -webkit-box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.91);
+  -moz-box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.91);
+  box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.91);
 }
 
 .submenu {
@@ -83,7 +88,11 @@ header p {
   bottom: auto;
   background-color: #303030;
   line-height: 24px;
-  width: auto;
+  width: 130px;
+  padding: 5px;
+  -webkit-box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.91);
+  -moz-box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.91);
+  box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.91);
 
 }
 .panel > li:hover > ul.submenu {
@@ -91,7 +100,7 @@ header p {
 }
 .panel li {
   display: inline-block;
-  margin: 0 3% 0 3%;
+  margin: 0 4% 0 3%;
   width: auto;
 }
 
@@ -99,6 +108,7 @@ header p {
   color: white;
   font-size: 14px;
   line-height: 24px;
+  text-decoration: none;
 }
 
 /*------------C O N T A I N E R ------------*/
@@ -118,7 +128,7 @@ header p {
 }
 .inf p {
   border-bottom: 1px solid #c7cacf;
-  padding: 15px;
+  padding: 0 15px 0 15px;
   line-height: 24px;
   font-size: 14px;
 }
@@ -134,10 +144,18 @@ header p {
 }
 .news p {
   border-bottom: 1px solid #c7cacf;
-  padding: 15px;
+  padding: 0 15px 0 15px;
   line-height: 24px;
   font-size: 14px;
 }
+
+.h1 {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0 15px 0 15px;
+  text-align: center;
+}
+
 .content {
   margin-left: 210px;
   margin-right: 210px;
