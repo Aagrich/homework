@@ -31,12 +31,15 @@ header p {
 .countries {
   display: inline-block;
   float: right;
+  font-size: 0px;
+  clear: right;
+  margin-top: 2%;
 }
 .countries p {
   display: block;
   width: auto;
   text-align: center;
-  font-size: 10px;
+  font-size: 0px;
 }
 .countries p a {
   display: block;
@@ -44,6 +47,7 @@ header p {
   font-size: 10px;
   width: auto;
   line-height: 0;
+  font-size: 10px;
 }
 
 .logo {
