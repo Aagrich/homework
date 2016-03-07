@@ -5,9 +5,9 @@ body {
   }
 .wraper {
   margin: 18px 10% 15px 10%;
-  background-color: white;
   height: auto;
-  }
+  background-color: white;
+}
 p,div,a,li {
   font-family: Tahoma;
 }
@@ -15,10 +15,10 @@ p,div,a,li {
 /*-------------H E A D E R -----------------*/
 
 header {
-  display:inline-block;
-  background-color: white;
-  width: 100%;
   position: relative;
+  display:inline-block;
+  width: 100%;
+  background-color: white;
 }
 header p {
    float: right;
@@ -31,9 +31,9 @@ header p {
 .countries {
   display: inline-block;
   float: right;
-  font-size: 0px;
   clear: right;
   margin-top: 2%;
+  font-size: 0px;
 }
 .countries p {
   display: block;
@@ -43,13 +43,12 @@ header p {
 }
 .countries p a {
   display: block;
+  width: auto;
   color: #128aa7;
   font-size: 10px;
-  width: auto;
   line-height: 0;
   font-size: 10px;
 }
-
 .logo {
   float: left;
   margin: 7% 30% 6% 3%;
@@ -64,25 +63,24 @@ header p {
   display: block;
 }
 .photo {
-  background-image: url(../img/photo.jpg);
-  background-size: 100%;
+  clear: both;
   padding: 11% 0 11% 0;
   border-top: 1px solid #128aa7;
   border-bottom: 1px solid #128aa7;
-  clear: both;
+  background-image: url(../img/photo.jpg);
+  background-size: 100%;
 }
 .panel {
-  background-image: url(../img/panel.png);
-  background-size: 100%;
-  display: inline-block;
-  width: 97%;
   position: relative;
+  display: inline-block;
   padding: 0 0 0 3%;
+  width: 97%;
+  background-image: url(../img/panel.png);
+  background-size: cover;
   -webkit-box-shadow: 2px 3px 25px 0px rgba(0,0,0,1);
   -moz-box-shadow: 2px 3px 25px 0px rgba(0,0,0,1);
   box-shadow: 2px 3px 25px 0px rgba(0,0,0,1);
 }
-
 .submenu {
   display: none;
   position: absolute;
@@ -90,14 +88,13 @@ header p {
   right: auto;
   left: auto;
   bottom: auto;
-  background-color: #303030;
-  line-height: 24px;
   width: 130px;
   padding: 5px;
+  background-color: #303030;
+  line-height: 24px;
   -webkit-box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.91);
   -moz-box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.91);
   box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.91);
-
 }
 .panel > li:hover > ul.submenu {
     display: block;
@@ -107,7 +104,6 @@ header p {
   margin: 0 4% 0 3%;
   width: auto;
 }
-
 .panel li a {
   color: white;
   font-size: 14px;
@@ -116,6 +112,7 @@ header p {
 }
 
 /*------------C O N T A I N E R ------------*/
+
 .conteiner {
   width: inherit;
   overflow: hidden;
@@ -154,7 +151,6 @@ header p {
   font-size: 14px;
   color: #424c43;
 }
-
 .h1 {
   font-size: 18px;
   line-height: 24px;
@@ -162,19 +158,17 @@ header p {
   text-align: center;
   color: #424c43;
 }
-
 .content {
   margin-left: 210px;
   margin-right: 210px;
   padding: 15px;
   width: auto;
 }
-
 footer {
+  clear: both;
+  padding-bottom: 15px;
   margin: 0 auto;
   text-align: center;
   font-size: 12px;
   color: white;
-  clear: both;
-  padding-bottom: 15px;
 }
