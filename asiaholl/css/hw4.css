@@ -4,7 +4,7 @@ body {
   background-repeat: no-repeat;
   }
 .wraper {
-  margin: 18px 10% 2% 10%;
+  margin: 18px 10% 15px 10%;
   background-color: white;
   height: auto;
   }
@@ -74,9 +74,9 @@ header p {
   width: 97%;
   position: relative;
   padding: 0 0 0 3%;
-  -webkit-box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.91);
-  -moz-box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.91);
-  box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.91);
+  -webkit-box-shadow: 2px 3px 25px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 2px 3px 25px 0px rgba(0,0,0,1);
+  box-shadow: 2px 3px 25px 0px rgba(0,0,0,1);
 }
 
 .submenu {
@@ -126,11 +126,12 @@ header p {
   margin-bottom: -20000px;
   padding-bottom: 20000px;
 }
-.inf p {
+.inf_p {
   border-bottom: 1px solid #c7cacf;
   padding: 0 15px 0 15px;
   line-height: 24px;
   font-size: 14px;
+  color: #424c43;
 }
 .news {
   float: right;
@@ -142,18 +143,20 @@ header p {
   margin-bottom: -20000px;
   padding-bottom: 20000px;
 }
-.news p {
+.news_p {
   border-bottom: 1px solid #c7cacf;
   padding: 0 15px 0 15px;
   line-height: 24px;
   font-size: 14px;
+  color: #424c43;
 }
 
 .h1 {
   font-size: 18px;
   line-height: 24px;
-  padding: 0 15px 0 15px;
+  padding: 5px 15px 5px 15px;
   text-align: center;
+  color: #424c43;
 }
 
 .content {
