@@ -1,21 +1,36 @@
-.wraper {
-  background-image: url(img/photo.jpg);
-  width: auto;
-}
-
-header {
+.first {
   background-color: #085291;
-  width: auto;
+  border-bottom:1px solid #4f9ed6;
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
 }
-header > ul li a {
+.first > ul {
+  border-right: 1px solid #4f9ed6;
+}
+.first > ul li {
+    display: inline-block;
+    float: right;
+}
+.first > ul li a {
   color: #4f9ed6;
   font-size: 14px;
   line-height: 14px;
 }
-header > p {
+.first > p {
+  background-color: black;
+  display: inline-block;
+  float: right;
   color: white;
   font-size: 14px;
   line-height: 14px;
+}
+.wraper {
+  background-image: url(../img/photo.jpg);
+  background-size: cover;
+  width: auto;
+  padding: 15% 25% 15% 25%;
+  clear: both;
 }
 .wraper header {
   background-color: black;
@@ -24,6 +39,7 @@ header > p {
 .regbox {
   background-color: black;
   margin: 0 auto;
+
 }
 
 .regbox input {
