@@ -1,0 +1,37 @@
+.wraper {
+  background-image: url(img/photo.jpg);
+  width: auto;
+}
+
+header {
+  background-color: #085291;
+  width: auto;
+}
+header > ul li a {
+  color: #4f9ed6;
+  font-size: 14px;
+  line-height: 14px;
+}
+header > p {
+  color: white;
+  font-size: 14px;
+  line-height: 14px;
+}
+.wraper header {
+  background-color: black;
+  margin: 0 auto;
+}
+.regbox {
+  background-color: black;
+  margin: 0 auto;
+}
+
+.regbox input {
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+  border-bottom: 1px solid grey;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ccc;
+}
