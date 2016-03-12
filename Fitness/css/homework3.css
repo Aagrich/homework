@@ -24,24 +24,26 @@ header > ul {
 }
 header > ul li {
   display: inline-block;
-  padding: 10px 3% 10px 1px;
+  padding: 10px 0px 10px 0px;
   height: 100%;
-  width:auto;
+  width:15%;
 }
 header > ul li a {
-  margin: 40%;
   color: white;
   text-decoration: none;
+  font-size: 15px;
 }
-header > ul li:hover{
+header > ul li:hover {
   background-image: url(../img/link.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  width: 15%;
 }
 header > ul li:nth-child(2){
   background-image: url(../img/link.png);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
+  width: 15%;
 }
 
 /*---------- CONTENT------------- */
