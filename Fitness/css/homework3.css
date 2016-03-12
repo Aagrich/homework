@@ -6,6 +6,9 @@
   border-right: 2px groove #e7e7e7;
   width: auto;
 }
+p,div,ul,li,a {
+  font-family:  Open Sans;
+}
 
 /*------------- HEADER ------------- */
 
@@ -28,7 +31,7 @@ header > ul li {
   width:15%;
 }
 header > ul li a {
-  display: block;
+  display: inline-block;
   width: 100%;
   height: 100%;
   padding:5% 0 5% 20%;
@@ -68,10 +71,17 @@ header > ul li:nth-child(2){
   padding: 10px;
 }
 .left_menu li a {
+  display: inline-block;
   text-decoration: none;
   color: grey;
 }
-.left_menu li a:hover {
+.left_menu li:nth-child(3) {
+  background-color: #f9f9f9;
+}
+.left_menu li:hover{
+  background-color: #f9f9f9;
+}
+.left_menu li:hover  a {
   color: black;
   padding-left: 10px;
 }
