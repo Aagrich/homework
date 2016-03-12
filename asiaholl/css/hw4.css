@@ -20,19 +20,21 @@ header {
   width: 100%;
   background-color: white;
 }
+
+ /* C O N T A C T S */
 header p {
    float: right;
-   margin: 12px 24px 24px 0px;
+   margin: 11px 24px 0px 0px;
    color: #128aa7;
    font-size: 12px;
    text-align: left;
-   line-height: 24px;
+   line-height: 21px;
 }
 .countries {
   display: inline-block;
   float: right;
   clear: right;
-  margin-top: 2%;
+
   font-size: 0px;
 }
 .countries p {
@@ -50,8 +52,14 @@ header p {
   font-size: 10px;
 }
 .logo {
+  position: relative;
   float: left;
-  margin: 7% 30% 6% 3%;
+  margin: 2% 0% 0% 3%;
+}
+.logo p {
+  position: absolute;
+  top:50%;
+  left:24%;
   color: #128aa7;
   font-size: 12px;
   text-align: center;
