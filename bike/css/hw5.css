@@ -8,30 +8,46 @@
 .first > ul {
   border-right: 1px solid #4f9ed6;
   margin-right: 2px;
+  padding-right: 20px;
+  float: right;
 }
 .first > ul li {
     display: inline-block;
-    float: right;
-    margin: 0 15px;
     line-height: 40px;
+    padding-left: 20px;
 }
 .first > ul li a {
+  display: block;
+  padding-left: 20px;
+  width: 100%;
+  height: 100%;
   color: #4f9ed6;
   font-size: 14px;
-  line-height: 14px;
+  text-decoration: none;
+}
+.first > ul li a:hover {
+  color: white;
+  background-color: #4f9ed6;
 }
 .first > p {
   display: inline-block;
   float: right;
   margin-right: 20px;
+  padding: 0px 10px 0 10px;
   color: white;
   font-size: 14px;
-  line-height: 44px;
+  line-height: 40px;
+}
+.first img {
+  margin: 7px 0 0 10px;
+  float: right;
+}
+.reglink {
+  background-color: #4f9ed6;
 }
 .wraper {
-    background-image: url(../img/photo.jpg);
+  background-image: url(../img/photo.jpg);
   background-size: cover;
-  background-repeat: space;
   padding: 15% 25% 15% 25%;
 }
 .wraper header {
