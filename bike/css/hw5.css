@@ -7,10 +7,13 @@
 }
 .first > ul {
   border-right: 1px solid #4f9ed6;
+  margin-right: 2px;
 }
 .first > ul li {
     display: inline-block;
     float: right;
+    margin: 0 15px;
+    line-height: 40px;
 }
 .first > ul li a {
   color: #4f9ed6;
@@ -18,36 +21,55 @@
   line-height: 14px;
 }
 .first > p {
-  background-color: black;
   display: inline-block;
   float: right;
+  margin-right: 20px;
   color: white;
   font-size: 14px;
-  line-height: 14px;
+  line-height: 44px;
 }
 .wraper {
-  background-image: url(../img/photo.jpg);
+    background-image: url(../img/photo.jpg);
   background-size: cover;
-  width: auto;
+  background-repeat: space;
   padding: 15% 25% 15% 25%;
-  clear: both;
 }
 .wraper header {
-  background-color: black;
-  margin: 0 auto;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 5px auto;
+  height: 60px;
 }
 .regbox {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   margin: 0 auto;
+  padding-top: 20px;
 
+}
+.regbox button {
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+  height: 40px;
+  background-color: #354f8c;
+  color: white;
 }
 
 .regbox input {
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
+  width: 50%;
+  height: 40px;
   background-color: black;
   border-bottom: 1px solid grey;
+  text-indent: 15px;
   font-size: 14px;
   line-height: 16px;
   color: #ccc;
+}
+.regbox p {
+  text-align: center;
+  color: white;
 }
