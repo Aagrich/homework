@@ -65,11 +65,12 @@
 
 }
 .regbox button {
-  background-image: url(../img/fbbutton.png);
   display: block;
   margin: 20px auto;
-  width: auto;
   height: auto;
+  width: auto;
+  border: 1px solid rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0);
 }
 
 .line {
@@ -91,7 +92,7 @@
   border-bottom: 1px solid black;
 }
 
-.regbox input {
+.reginput input {
   display: block;
   margin: 10px auto;
   width: 50%;
@@ -104,8 +105,13 @@
   line-height: 16px;
   color: #ccc;
 }
-.regbox input:hover {
+.regbox .reginput input:hover {
   background-color: #1b5288;
+  border: 1px solid #1b5288;
+  border-bottom: 1px solid #689bcc;
+  -webkit-box-shadow: 0px 0px 12px 3px rgba(104,155,204,1);
+  -moz-box-shadow: 0px 0px 12px 3px rgba(104,155,204,1);
+  box-shadow: 0px 0px 12px 3px rgba(104,155,204,1);
 }
 .regbox p {
   text-align: center;
