@@ -91,7 +91,6 @@
   border-top: 1px solid grey;
   border-bottom: 1px solid black;
 }
-
 .reginput input {
   display: block;
   margin: 10px auto;
@@ -105,13 +104,25 @@
   line-height: 16px;
   color: #ccc;
 }
-.regbox .reginput input:hover {
+.reginput input:hover {
   background-color: #1b5288;
   border: 1px solid #1b5288;
   border-bottom: 1px solid #689bcc;
   -webkit-box-shadow: 0px 0px 12px 3px rgba(104,155,204,1);
   -moz-box-shadow: 0px 0px 12px 3px rgba(104,155,204,1);
   box-shadow: 0px 0px 12px 3px rgba(104,155,204,1);
+}
+.subbutton {
+  display: block;
+  margin: 10px auto;
+  width: 30%;
+  height: 40px;
+  background-color: linear-gradient (black, red);
+  border: 1px solid lightblue;
+  text-indent: 15px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ccc;
 }
 .regbox p {
   text-align: center;
