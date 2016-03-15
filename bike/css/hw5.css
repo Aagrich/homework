@@ -65,12 +65,11 @@
 
 }
 .regbox button {
+  background-image: url(../img/fbbutton.png);
   display: block;
   margin: 20px auto;
-  width: 50%;
-  height: 40px;
-  background-color: #354f8c;
-  color: white;
+  width: auto;
+  height: auto;
 }
 
 .line {
@@ -104,6 +103,9 @@
   font-size: 14px;
   line-height: 16px;
   color: #ccc;
+}
+.regbox input:hover {
+  background-color: #1b5288;
 }
 .regbox p {
   text-align: center;
