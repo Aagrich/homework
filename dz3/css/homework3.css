@@ -78,16 +78,16 @@ header > ul li:nth-child(2){
 .left_menu li a:nth-child(3) {
   background-color: #f9f9f9;
 }
-.left_menu li a:hover {
+.left_menu li:hover {
   background-color: #f9f9f9;
 }
 .left_menu li a:hover {
+  text-indent: 15px;
   color: black;
-  padding-left: 10px;
 }
-.left_menu li:nth-child(3) a {
+.left_menu li a:nth-child(3) {
   color: black;
-  padding-left: 10px;
+  text-indent: 15px;
 }
 .content {
   display:block;
