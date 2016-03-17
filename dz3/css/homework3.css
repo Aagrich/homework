@@ -27,7 +27,7 @@ header > ul {
   width: auto;
 }
 header > ul li {
-  display: block;
+  display: inline-block;
   height: 100%;
   width:15%;
 }
