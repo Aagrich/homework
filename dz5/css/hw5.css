@@ -117,7 +117,7 @@
   margin: 10px auto;
   width: 30%;
   height: 40px;
-  background: linear-gradient (black, red);
+  background: linear-gradient(red to blue);
   border: 1px solid lightblue;
   text-indent: 15px;
   font-size: 14px;
@@ -127,4 +127,8 @@
 .regbox p {
   text-align: center;
   color: white;
+}
+.testtype {
+  text-align: center;
+  background: linear-gradient(red to blue);
 }

@@ -26,15 +26,15 @@ header > ul {
   width: auto;
 }
 header > ul li {
+  float: left;
   display: inline-block;
   height: 100%;
   width:15%;
 }
 header > ul li a {
-  display: inline-block;
-  width: 100%;
+  display: block;
   height: 100%;
-  padding:5% 0 5% 20%;
+  padding:5% 5% 5% 20%;
   color: white;
   text-decoration: none;
   font-size: 15px;
@@ -62,7 +62,6 @@ header > ul li:nth-child(2){
   display: inline-block;
   float: left;
   width: 20%;
-  margin-right: 6%;
 }
 .left_menu li {
   border: 1px solid #c8c8c8;
@@ -91,9 +90,9 @@ header > ul li:nth-child(2){
 }
 .content {
   display: inline-block;
-  margin: 0;
+  margin-left: 50px;
   background: white;
-  float: right;
+  float: left;
   width: 70%;
   background: white;
 }
