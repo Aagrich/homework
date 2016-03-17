@@ -64,23 +64,24 @@ header > ul li:nth-child(2){
   width: 20%;
 }
 .left_menu li {
-  border: 1px solid #c8c8c8;
   display: block;
   width: 100%;
-  padding: 10px;
 }
 .left_menu li a {
+  width: 100%;
+  padding: 10px;
   display: inline-block;
+  border: 1px solid #c8c8c8;
   text-decoration: none;
   color: grey;
 }
-.left_menu li:nth-child(3) {
+.left_menu li a:nth-child(3) {
   background-color: #f9f9f9;
 }
-.left_menu li:hover{
+.left_menu li a:hover {
   background-color: #f9f9f9;
 }
-.left_menu li:hover  a {
+.left_menu li a:hover {
   color: black;
   padding-left: 10px;
 }
