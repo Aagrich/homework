@@ -79,7 +79,7 @@ header p {
 }
 .panel {
   position: relative;
-  display: inline-block;
+  display: block;
   padding: 0 0 0 3%;
   width: 97%;
   background-image: url(../img/panel.png);
@@ -112,7 +112,7 @@ header p {
 }
 .panel li a {
   display: block;
-  padding:  0 20% 0 20%;
+  padding-left: 25px;
   width: 100%;
   color: white;
   font-size: 14px;
