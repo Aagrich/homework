@@ -21,7 +21,6 @@ header > img {
   margin-top: 4%;
 }
 header > ul {
-  font-size: 0px;
   background-image: url(../img/panel.png);
   background-size: cover;
   width: auto;
