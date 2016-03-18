@@ -14,11 +14,11 @@
 .first > ul li {
     display: inline-block;
     line-height: 40px;
-    padding-left: 20px;
 }
 .first > ul li a {
   display: block;
-  padding-left: 20px;
+  text-indent: 20px;
+  text-align: center;
   width: 100%;
   height: 100%;
   color: #4f9ed6;
@@ -85,15 +85,15 @@
   margin: 1px auto;
   color: grey;
 }
-.line:before {
-  content: " ";
+p.line:before {
+  content: "";
   height: 2px;
   width: 100px;
   border-top: 1px solid grey;
   border-bottom: 1px solid black;
 }
-.line:after {
-  content: " ";
+p.line:after {
+  content: "";
   width: 100px;
   border-top: 1px solid grey;
   border-bottom: 1px solid black;
