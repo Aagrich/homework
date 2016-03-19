@@ -1,3 +1,28 @@
 .menu {
   float: left;
 }
+.menu_style_text {
+  color: white;
+}
+.menu_style li {
+  display: inline-block;
+}
+.menu_style a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.slider {
+ background-image: url(img/bg960.jpeg);
+ width: 100%;
+ padding: 270px 0 0 0;
+}
+.slider__inform {
+  float: left;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 100px 50% 100px 28%;
+}
+.slider__text {
+  color: grey;
+}
