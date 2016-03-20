@@ -68,9 +68,12 @@
   display: block;
   margin: 20px auto;
   height: auto;
-  width: auto;
+  width: 50%;
   border: 1px solid rgba(255, 0, 0, 0);
   background-color: rgba(255, 0, 0, 0);
+}
+.regbox button img {
+  width:100%;
 }
 
 .line {
@@ -117,7 +120,12 @@
   margin: 10px auto;
   width: 30%;
   height: 40px;
-  background-color: linear-gradient (black, red);
+  background: #50aedb;
+  background: -webkit-linear-gradient(left, #50aedb, #2e7ac4);
+  background: -moz-linear-gradient(left, #50aedb, #2e7ac4);
+  background: -ms-linear-gradient(left, #50aedb, #2e7ac4);
+  background: -o-linear-gradient(left, #50aedb, #2e7ac4); 
+  background: linear-gradient(to right, #50aedb, #2e7ac4);
   border: 1px solid lightblue;
   text-indent: 15px;
   font-size: 14px;
