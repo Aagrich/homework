@@ -93,7 +93,7 @@ header > ul li:nth-child(2){
   display:block;
   margin-left: 50px;
   background: white;
-  float: left;
+  float: right;
   width: 70%;
 }
 .photo {

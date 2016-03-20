@@ -103,21 +103,27 @@
   text-align: center;
   color: white;
 }
+.regbox label {
+  display: block;
+  margin: 0 auto;
+  color: white;
+
+}
 .line {
   padding: 5px;
   margin: 1px auto;
   color: grey;
 }
-p.line:before {
+.regbox p .line:before {
   content: "";
   height: 2px;
   width: 100px;
   border-top: 1px solid grey;
   border-bottom: 1px solid black;
 }
-p.line:after {
+.regbox p .line:after {
   content: "";
-  width: 100px;
+  width: auto;
   border-top: 1px solid grey;
   border-bottom: 1px solid black;
 }
