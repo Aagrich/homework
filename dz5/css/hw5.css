@@ -78,9 +78,6 @@
   margin: 20px auto;
   height: auto;
   width: 50%;
-  color: white;
-  border: 1px solid rgba(255, 0, 0, 0);
-  background-color: rgba(255, 0, 0, 0);
   border: 1px solid white;
   background: blue;
   background: linear-gradient( top, #3a5598 0%, #354e8e 50%, #2d447a 100%);
@@ -89,8 +86,16 @@
   background: -o-linear-gradient( top, #3a5598 0%, #354e8e 50%, #2d447a 100%);
   background: -moz-linear-gradient( top, #3a5598 0%, #354e8e 50%, #2d447a 100%);
 }
-.faceicon {
+
+.regbox button p {
+  text-indent: 10px;
+  display: inline;
+  color: white;
+}
+.regbox button .faceicon {
   display: inline-block;
+  padding-right: 20px;
+  margin-right: 20px;
   font-size: 20px;
   border-right: 1px solid blue;
 }
