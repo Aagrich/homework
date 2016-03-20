@@ -1,45 +1,49 @@
 .menu {
+  display: inline-block;
   float: left;
 }
-.menu_style_text {
+.menu__style_text {
   color: white;
 }
-.menu_style li {
+.menu__style li {
   display: inline-block;
 }
-.menu_style a {
+.menu__style li a {
   display: block;
   color: white;
   text-decoration: none;
 }
 
 .slider {
- background-image: url(img/bg960.jpeg);
+
+ background-image: url(../img/bg960.jpg);
  width: 100%;
  padding: 270px 0 0 0;
 }
 .slider__inform {
   float: left;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   padding: 100px 50% 100px 28%;
 }
 .slider__text {
   color: grey;
 }
 .slider__img {
-
+  height: 500px;
 }
 .slider__img_iphone2 {
   float: left;
-  background-image: url(img/iphone42.png);
-  background-size: auto;
+  background-image: url(../img/iphone42.png);
+  background-size: 100%;
 }
 .slider__img_iphone {
+  height: 200px;
   float: right;
-  background-image: url(img/iphone4.png);
-  background-size: auto;
+  background-image: url(../img/iphone4.png);
+  background-size: 100%;
 }
 .slider__img_circle_play {
+  clear: both;
   background-color: grey;
   border: 3px solid purple;
   border-radius: 15%;
@@ -47,8 +51,8 @@
 .slider__circle {
   width:20px;
   border-radius: 25%;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .slider__circle:active {
@@ -61,6 +65,7 @@
   padding: 0 28% 0 28%;
 }
 .content__about {
+  width: 30%;
   float: left;
   margin: 60px auto;
   color: white;
@@ -80,26 +85,29 @@
 }
 .blog {
   background-color: lightgrey;
-  padding: 0 28% 0 28%;
+  padding: 0 28%;
 }
 .blog__blog {
+  width: 40%;
   float: left;
   background-color: white;
 }
-.block__blog_circle {
+.blog__blog_circle {
   display: inline-block;
   width: 20px;
+  height: 20px;
   background-color: white;
   border: 1px solid white;
   border-radius: 25%;
 }
-.block__blog_circle:active {
+.blog__blog_circle:active {
   background-color: black;
 }
-.block__news {
+.blog__news {
+  width:40%;
   float: right;
 }
-.block__logo {
+.blog__logo {
   margin: 0 auto;
   padding: 120px 0;
   border-top: 1px solid white;
@@ -112,6 +120,8 @@
   padding: 0 28%;
 }
 .content2__text {
+  padding: 20px;
+  width: 30%;
   float: left;
   margin: 130px auto;
 }
