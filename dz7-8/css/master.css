@@ -1,0 +1,123 @@
+.menu {
+  float: left;
+}
+.menu_style_text {
+  color: white;
+}
+.menu_style li {
+  display: inline-block;
+}
+.menu_style a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.slider {
+ background-image: url(img/bg960.jpeg);
+ width: 100%;
+ padding: 270px 0 0 0;
+}
+.slider__inform {
+  float: left;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 100px 50% 100px 28%;
+}
+.slider__text {
+  color: grey;
+}
+.slider__img {
+
+}
+.slider__img_iphone2 {
+  float: left;
+  background-image: url(img/iphone42.png);
+  background-size: auto;
+}
+.slider__img_iphone {
+  float: right;
+  background-image: url(img/iphone4.png);
+  background-size: auto;
+}
+.slider__img_circle_play {
+  background-color: grey;
+  border: 3px solid purple;
+  border-radius: 15%;
+}
+.slider__circle {
+  width:20px;
+  border-radius: 25%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.slider__circle:active {
+  background-color: white;
+}
+.content {
+  background-color: purple;
+  height: 340px;
+  clear: both;
+  padding: 0 28% 0 28%;
+}
+.content__about {
+  float: left;
+  margin: 60px auto;
+  color: white;
+  overflow: hidden;
+
+}
+.content__about a {
+  text-decoration: none;
+  float: right;
+}
+.content__about_text {
+  padding-left: 50px;
+  padding-bottom: 15px;
+}
+.wraper {
+  background-image: url(img/bg960.jpg);
+}
+.blog {
+  background-color: lightgrey;
+  padding: 0 28% 0 28%;
+}
+.blog__blog {
+  float: left;
+  background-color: white;
+}
+.block__blog_circle {
+  display: inline-block;
+  width: 20px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 25%;
+}
+.block__blog_circle:active {
+  background-color: black;
+}
+.block__news {
+  float: right;
+}
+.block__logo {
+  margin: 0 auto;
+  padding: 120px 0;
+  border-top: 1px solid white;
+  clear: both;
+  background-image: url(img/logos.png);
+  background-repeat: no-repeat;
+}
+.content2 {
+  background-color: grey;
+  padding: 0 28%;
+}
+.content2__text {
+  float: left;
+  margin: 130px auto;
+}
+
+
+
+footer {
+
+}

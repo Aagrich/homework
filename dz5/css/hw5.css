@@ -14,11 +14,11 @@
 .first > ul li {
     display: inline-block;
     line-height: 40px;
-    padding-left: 20px;
 }
 .first > ul li a {
   display: block;
-  padding-left: 20px;
+  text-indent: 20px;
+  text-align: center;
   width: 100%;
   height: 100%;
   color: #4f9ed6;
@@ -53,6 +53,7 @@
 .wraper header {
   text-align: center;
   line-height: 60px;
+  font-size: 24px;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   margin: 5px auto;
@@ -62,35 +63,42 @@
   background-color: rgba(0, 0, 0, 0.5);
   margin: 0 auto;
   padding-top: 20px;
-
 }
 .regbox button {
   display: block;
+  padding: 15px;
   margin: 20px auto;
   height: auto;
   width: 50%;
   border: 1px solid rgba(255, 0, 0, 0);
   background-color: rgba(255, 0, 0, 0);
+  border: 1px solid white;
+  background: blue;
+  background: linear-gradient( top, blue 0%, red 100%);
+  background: -ms-linear-gradient( top, blue 0%, red 100%);
+  background: -webkit-linear-gradient( top, blue 0%, red 100%);
+  background: -o-linear-gradient( top, blue 0%, red 100%);
+  background: -moz-linear-gradient( top, blue 0%, red 100%);
 }
-.regbox button img {
-  width:100%;
+.regbox p {
+  text-align: center;
+  color: white;
 }
-
 .line {
   padding: 5px;
-  margin: 0 auto;
+  margin: 1px auto;
   color: grey;
 }
-.line::before {
+p.line:before {
   content: "";
   height: 2px;
-  width: auto;
+  width: 100px;
   border-top: 1px solid grey;
   border-bottom: 1px solid black;
 }
-.line::after {
+p.line:after {
   content: "";
-  width: auto;
+  width: 100px;
   border-top: 1px solid grey;
   border-bottom: 1px solid black;
 }
@@ -116,23 +124,20 @@
   box-shadow: 0px 0px 12px 3px rgba(104,155,204,1);
 }
 .subbutton {
-  display: block;
   margin: 10px auto;
+
   width: 30%;
   height: 40px;
-  background: #50aedb;
-  background: -webkit-linear-gradient(left, #50aedb, #2e7ac4);
-  background: -moz-linear-gradient(left, #50aedb, #2e7ac4);
-  background: -ms-linear-gradient(left, #50aedb, #2e7ac4);
-  background: -o-linear-gradient(left, #50aedb, #2e7ac4); 
-  background: linear-gradient(to right, #50aedb, #2e7ac4);
+  padding: 15px;
+  background: blue;
+  background: linear-gradient(top, #e2e2e2 0%, red 50%, green 51%, yellow 100%);
+  background: -moz-linear-gradient(top, #e2e2e2 0%, red 50%, green 51%, yellow 100%);
+  background: -webkit-linear-gradient(top, #e2e2e2 0%, red 50%, green 51%, yellow 100%);
+  background: -o-linear-gradient(top, #e2e2e2 0%, red 50%, green 51%, yellow 100%);
+  background: -ms-linear-gradient(top, #e2e2e2 0%, red 50%, green 51%, yellow 100%);
   border: 1px solid lightblue;
   text-indent: 15px;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 15px;
   color: #ccc;
-}
-.regbox p {
-  text-align: center;
-  color: white;
 }
