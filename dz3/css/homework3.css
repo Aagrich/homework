@@ -55,9 +55,9 @@ header > ul li a:nth-child(2){
 /*---------- CONTENT------------- */
 
 .conteiner {
-  display: block;
+    display: block;
     background: white;
-    margin: 4% 0 7% 0;
+    margin: 4% 0 0 0;
     padding: 0;
 }
 .left_menu {
