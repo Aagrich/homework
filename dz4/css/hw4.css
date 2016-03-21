@@ -89,7 +89,7 @@ header {
 .submenu {
   display: none;
   position: absolute;
-  top: 24px;
+  top: 98%;
   right: auto;
   left: auto;
   bottom: auto;
@@ -101,6 +101,9 @@ header {
   -moz-box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.91);
   box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.91);
 }
+.panel .submenu li a {
+  padding-left:-25px;
+}
 .panel > li:hover > ul.submenu {
     display: block;
 }
@@ -110,7 +113,6 @@ header {
 }
 .panel li a {
   display: block;
-  padding-left: 25px;
   width: 100%;
   color: white;
   font-size: 14px;
