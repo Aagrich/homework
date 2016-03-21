@@ -24,7 +24,7 @@ header {
  /* C O N T A C T S */
 .contacts {
    float: right;
-   margin: 15px 11px 0px 0px;
+   margin: 15px 3% 0px 0px;
    color: #128aa7;
    font-size: 12px;
    text-align: left;
@@ -39,7 +39,7 @@ header {
 }
 .countries p {
   display: inline-block;
-  margin:5% 1% 1% 1%;
+  margin:7% 1% 1% 1%;
   width: auto;
   text-align: center;
 }
@@ -78,8 +78,7 @@ header {
 .panel {
   position: relative;
   display: block;
-  padding: 0 0 0 3%;
-  width: 97%;
+  width: 100%;
   border-top: 1px solid grey;
   background-image: url(../img/panel.png);
   background-size: cover;
@@ -115,8 +114,13 @@ header {
   width: 100%;
   color: white;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 32px;
   text-decoration: none;
+}
+.tri {
+  display: inline;
+  font-size: 8px;
+  
 }
 
 /*------------C O N T A I N E R ------------*/
