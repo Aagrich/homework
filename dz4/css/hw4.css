@@ -103,6 +103,9 @@ header {
   -moz-box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.91);
   box-shadow: 2px 3px 25px 0px rgba(0,0,0,0.91);
 }
+.panel .submenu li a {
+  text-indent: 5px;
+}
 .panel > li:hover > ul.submenu {
     display: block;
 }
